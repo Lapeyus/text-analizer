@@ -265,8 +265,8 @@ def sample_analyze_syntax(text_content):
 
 if __name__ == "__main__":
     text_content = "That actor on TV makes movies in Hollywood and also stars in a variety of popular new TV shows."
-    # sample_classify_text(text_content)
-    # sample_analyze_entities(text_content)
-    # sample_analyze_entity_sentiment(text_content)
-    # sample_analyze_sentiment(text_content)
+    sample_classify_text(text_content)
+    sample_analyze_entities(text_content)
+    sample_analyze_entity_sentiment(text_content)
+    sample_analyze_sentiment(text_content)
     sample_analyze_syntax(text_content)
